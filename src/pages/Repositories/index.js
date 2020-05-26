@@ -11,7 +11,7 @@ export default function Repositories() {
     if (repositoriesName != null ) {
       repositoriesName = JSON.parse(repositoriesName);
       setRepositories(repositoriesName);
-     // localStorage.clear();
+      localStorage.clear();
     } else {
       history.push('/');
     }
